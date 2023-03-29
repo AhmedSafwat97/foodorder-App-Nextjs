@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap");
+
+* {
+  font-family: "Dancing Script", "cursive";
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.title {
+  font-family: "Dancing Script";
+}
+
+.Link {
+  margin: 0 10px;
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+}
+
+.MenuLink {
+  margin: 0 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: "black";
+}
+
+.Hover:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.active {
+  background-color: red;
+  color: white;
+}
+
+.MenuBack {
+  background-image: url(../../public/Menu.jpg);
+  background-size: cover;
+  padding: 20px 0;
+}
+
+.Navp {
+  padding: 20px 100px;
+}
+
+.cart-img {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-width: 900px) {
+  .Navp {
+    padding: 20px;
+  }
+
+  .cart-img {
+    width: 50px;
+    height: 50px;
+  }
+}
