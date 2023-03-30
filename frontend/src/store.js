@@ -4,10 +4,12 @@ import { setupListeners } from '@reduxjs/toolkit/query'
 import { foodMenuApi } from './Redux/foodMenuApi'
 import { offersApi } from './Redux/offersApi'
 import CartReducer from '../src/Redux/Cartslice'
+import SearchReducer from "../src/Redux/SearchSlice.js"
 
 
 export const store = configureStore({
   reducer: {
+    Searchh : SearchReducer ,
     Cart : CartReducer ,
     [foodMenuApi.reducerPath]: foodMenuApi.reducer,
     [offersApi.reducerPath]: offersApi.reducer,

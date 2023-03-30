@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
-const Layout = ({ children , title }) => {
+const Layout = ({ children , title}) => {
 
   return (
     <>
@@ -19,7 +19,7 @@ const Layout = ({ children , title }) => {
       </Head>
 
       <div>
-        <Navbar />
+        <Navbar/>
         <div {...{title}}>{children}</div>
         <Footer />
       </div>

@@ -11,7 +11,7 @@ const foodMenu = [
   {
     id: 2,
     category : "Burger",
-    Name: "Delicious Burger    ",
+    Name: "Delicious Burger",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elite. Sequi, perferendis beatae asperiores.",
     price: 16,
@@ -20,7 +20,7 @@ const foodMenu = [
   {
     id: 3,
     category : "Pizza",
-    Name: "Delicious Pizza    ",
+    Name: "Delicious Pizza",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elite. Sequi, perferendis beatae asperiores.",
     price: 20,
@@ -29,7 +29,7 @@ const foodMenu = [
   {
     id: 4,
     category : "Fries",
-    Name: "French Fries    ",
+    Name: "French Fries",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elite. Sequi, perferendis beatae asperiores.",
     price: 12,
@@ -74,7 +74,7 @@ const foodMenu = [
   {
     id: 9,
     category : "Pizza",
-    Name: "Delicious Pizza    ",
+    Name: "Delicious Pizza",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elite. Sequi, perferendis beatae asperiores.",
     price: 14,

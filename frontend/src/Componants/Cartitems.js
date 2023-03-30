@@ -39,7 +39,7 @@ const Cartitems = () => {
             sx={{
               p: "0 10px",
               width: "100px",
-              fontSize: { xs: "24px", md: "24px" },
+              fontSize: { xs: "15px", md: "24px" },
             }}
           >
             {Product.Name}
@@ -47,7 +47,7 @@ const Cartitems = () => {
           <Typography
             variant="h4"
             color="initial"
-            sx={{ fontSize: { xs: "24px", md: "30px" } }}
+            sx={{ fontSize: { xs: "20px", md: "30px" } }}
           >
             ${Product.price}
           </Typography>
@@ -81,7 +81,7 @@ const Cartitems = () => {
           <Typography
             variant="h4"
             color="initial"
-            sx={{ fontSize: { xs: "24px", md: "30px" } }}
+            sx={{ fontSize: { xs: "20px", md: "30px"} }}
           >
             ${Number(Product.price) * Number(Product.quantity)}
           </Typography>
