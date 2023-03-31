@@ -11,7 +11,6 @@ import { addToCart, decrement, increment } from "@/Redux/Cartslice";
 
 const Search = ({ title }) => {
 
-
     const { value } = useSelector((state) => state.Searchh);
 
     const { SelectedProducts, SelectedProductsId } = useSelector(
@@ -31,17 +30,16 @@ const Search = ({ title }) => {
 
 
   return (
-    <Layout title="Search" sx={{minHeight : "90vh"}}>
+    <Layout title="Search">
       <Box sx={{ width: "100%", height: "90px", bgcolor: "black" }} />
       <Typography variant="h4" sx={{textAlign : "center"}}> Search For {value} </Typography>
-      <Box>
+      <Box sx={{minHeight : "70vh"}}>
         <Box
           sx={{
             display: "flex",
             justifyContent: "center",
             flexWrap: "wrap",
             m: "20px",
-            minWidth : "100vh"
           }}
         >
           {error ? (
