@@ -5,14 +5,14 @@ const initialState = {
   SelectedProductsId: [],
 };
 
-if (typeof window !== "undefined") {
-  initialState.SelectedProducts = localStorage.getItem("cartarray")
-    ? JSON.parse(localStorage.getItem("cartarray"))
-    : [];
-  initialState.SelectedProductsId = localStorage.getItem("IdArray")
-    ? JSON.parse(localStorage.getItem("IdArray"))
-    : [];
-}
+// if (typeof window !== "undefined") {
+//   initialState.SelectedProducts = localStorage.getItem("cartarray")
+//     ? JSON.parse(localStorage.getItem("cartarray"))
+//     : [];
+//   initialState.SelectedProductsId = localStorage.getItem("IdArray")
+//     ? JSON.parse(localStorage.getItem("IdArray"))
+//     : [];
+// }
 
 export const CartSlice = createSlice({
   name: "Cart",

@@ -27,13 +27,10 @@ const Banner = () => {
           }}
         >
           <h1 style={{ fontSize: "48px", marginBottom: "5px" }} className="title">
-            Hello from food order app
+            Hello From FoodEase App
           </h1>
           <Typography variant="p">
-            Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente
-            ad mollitia laborum quam quisquam esse error unde. Tempora ex
-            doloremque, labore, sunt repellat dolore, iste magni quos nihil
-            ducimus libero ipsam.
+          FoodEase is a place where customers can order a variety of food items and have them prepared fresh and ready to eat. This type of shop may offer a range of different foods, such as sandwiches, wraps, Fries, pizza, and more, depending on the specific menu.
           </Typography>
           <Button
             sx={{bgcolor: "green", mt: "10px" , width : "fit-content" }}

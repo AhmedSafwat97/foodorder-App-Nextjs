@@ -162,8 +162,9 @@ const Navbar = () => {
         Button: "0",
         width: "75%",
         height: "100vh",
-        bgcolor: "red",
+        bgcolor: "green",
         zIndex: "10",
+        transition : "2s"
       }}
     >
 

@@ -105,7 +105,7 @@ const MenuSwiper3 = () => {
                         >
                           {item.Name}
                         </Typography>
-                        <Typography variant="body2" color="white">
+                        <Typography sx={{height : "80px"}} variant="body2" color="white">
                           {item.description}
                         </Typography>
                       </CardContent>

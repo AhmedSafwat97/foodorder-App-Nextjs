@@ -6,6 +6,8 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { Box } from "@mui/system";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { addToCart, decrement, increment } from "@/Redux/Cartslice";
+
 
 const Search = ({ title }) => {
 
@@ -29,7 +31,7 @@ const Search = ({ title }) => {
 
 
   return (
-    <Layout title="Search">
+    <Layout title="Search" sx={{minHeight : "90vh"}}>
       <Box sx={{ width: "100%", height: "90px", bgcolor: "black" }} />
       <Typography variant="h4" sx={{textAlign : "center"}}> Search For {value} </Typography>
       <Box>
